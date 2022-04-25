@@ -1,0 +1,2 @@
+ip route 0.0.0.0/0 xxx.xxx.xxx.xxx
+ip route xxx.xxx.xxx.xxx/xx xxx.xxx.xxx.xxx
