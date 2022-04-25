@@ -1,0 +1,23 @@
+vlan database
+ vlan 10,20,25,1010
+ 
+ interface eth-0-1
+ description ?????
+ switchport access vlan 20
+ 
+ interface eth-0-29
+ switchport mode trunk
+ switchport trunk allowed vlan add 10,20,25,1010
+ switchport trunk allowed vlan remove 1
+ 
+ interface eth-0-35
+ description ??????
+ switchport access vlan 1010
+ channel-group 8 mode active
+!
+
+interface agg8
+ switchport access vlan 1010
+ 
+ interface vlan1010
+ ip address xxx.xxx.xxx.xxx/xx
