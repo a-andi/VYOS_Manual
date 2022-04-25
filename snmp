@@ -1,0 +1,4 @@
+snmp-server enable 
+snmp-server system-contact your-admin-mail
+snmp-server system-location your-location
+snmp-server community your-community read-only 
